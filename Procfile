@@ -1,0 +1,1 @@
+web: python src/ml/train.py && uvicorn src.api.main:app --host 0.0.0.0 --port $PORT
